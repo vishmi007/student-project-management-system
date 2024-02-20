@@ -1,0 +1,105 @@
+/*
+ * FILE: AllTeamsList.jsx
+ * AUTHOR: Shamika Kumarasinghe [20470395]
+ * UNIT: Capstone Computing Project 2 ISAD3001
+ * PURPOSE: Page that is used to display all the current active projects
+ * REFERENCE: None
+ * LAST MOD: 16/08/2023
+ */
+
+.MainContainer {
+  width: 15rem;
+  height: 21rem;
+  display: flex;
+
+  padding-top: 0.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-bottom: 0.5rem;
+
+  border-radius: 1rem 1rem 1rem 1rem;
+
+  align-items: center;
+
+  flex-direction: column;
+
+  background-color: #efefef;
+}
+.CardImage {
+  border-radius: 1rem 1rem 0rem 0rem;
+}
+.Status {
+  width: 7rem;
+  height: 2rem;
+  background-color: #d0cece;
+  border-radius: 1rem 1rem 1rem 1rem;
+  position: absolute;
+  margin-top: 8.5rem;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.StarusInfo {
+  color: #ffffff;
+
+  font-size: 0.9375rem;
+
+  font-weight: 700;
+  
+}
+.TeamName {
+  color: #000000;
+  font-size: 1.375rem;
+  font-weight: 600;
+  margin-top: 2rem;
+}
+.TeamDescription {
+  color: #000000;
+  font-size: 0.7rem;
+  font-weight: 300;
+}
+.TimerContainer {
+  width: 13rem;
+  height: 2.5rem;
+  background-color: #ffffff;
+  border-radius: 1rem 1rem 1rem 1rem;
+  margin-top: 2cqmax;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.ViewButton {
+  width: 5rem;
+  height: 2.5rem;
+  border-radius: 1rem 1rem 1rem 1rem;
+  background-color: #297ac5;
+  color: #ffffff;
+  border-color: #297ac5;
+  transition: background-color 0.3s ease;
+}
+
+.ViewButton:hover {
+  background-color: #0f599e;
+  color: #ffffff;
+}
+
+.Time {
+  color: #000;
+
+  font-size: 0.9375rem;
+
+  font-weight: 700;
+  margin-left: 1rem;
+}
+.EndsIn {
+  color: #000;
+
+  font-size: 0.625rem;
+
+  font-weight: 300;
+
+  margin-left: 1rem;
+}

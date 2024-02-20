@@ -1,0 +1,35 @@
+.kanban-container {
+  width: 45rem;
+}
+
+.kstate {
+  width: 18rem;
+  height: 30rem;
+  padding: 1rem;
+  margin-right: 1rem;
+  border: 1px solid;
+  /* flex-shrink: 0; */
+  border-radius: 1rem 1rem 0rem 0rem;
+  background: #f5f5f5;
+}
+
+.kstate-topic {
+  width: 5rem;
+  height: 1.368rem;
+  flex-shrink: 0;
+  color: #0d062d;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.addbutton {
+  display: flex;
+  width: 1.5625rem;
+  height: 1.368rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}

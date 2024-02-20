@@ -1,0 +1,6 @@
+.information-display {
+  min-width: 15rem;
+  height: 15rem;
+  flex-shrink: 0;
+  margin-left: 9rem;
+}

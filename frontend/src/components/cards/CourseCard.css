@@ -1,0 +1,60 @@
+
+  .courseList{
+    display: grid;
+    justify-content: space-evenly;
+    margin-left: 1rem;
+  }
+  
+  .courseCard{
+    position: relative; 
+    background: linear-gradient(to bottom right, #000000, #353535);
+    flex: 1 0 9rem;
+    transition: 0.2s;
+    border-radius: 1em;
+    color: white;
+  
+    width: 9rem;
+    height: 9rem;
+  
+    display: grid;
+  
+    padding-left: 10%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-right: 10%;
+  }
+  
+  .courseCard:hover{
+    transform: translateY(-0.5rem);
+    box-shadow: 0.5rem 0.75rem 1.5rem #434141;
+    background: linear-gradient(to bottom left, #7CCBFF, #297AC5);
+  }
+  
+  .courseCard__content {
+    display: flex;
+    flex-direction: row;
+    white-space: initial;
+    justify-content: space-between
+  }
+  
+  .courseName,
+  .courseCode
+  {
+    font-size: 0.8rem;
+    word-wrap: break-word;
+  }
+  
+  .teamNum{
+    font-size: 0.6rem;
+  }
+
+  .CardIcon{
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: white;
+    border-radius: 25%;
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    color: #000000;
+  }

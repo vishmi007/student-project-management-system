@@ -1,0 +1,120 @@
+.view {
+  display: flex;
+  flex-direction: column;
+}
+
+.home-container {
+  display: flex; 
+  flex-direction: row; 
+  position: relative;
+  width: 100%;
+  height: 34rem;
+}
+
+.container-one {
+  width: 25rem;
+  height: 34rem;
+  position: absolute;
+  color: rgb(0, 0, 0);
+
+  border-radius: 16px;
+
+  background-color: #ffffff;
+}
+
+.container-two {
+  width: 25rem;
+  height: 34rem;
+
+  display: flex;
+  flex-direction: column;
+
+  position: absolute;
+  left: 34%;
+
+  border-radius: 16px;
+}
+.container-members {
+  width: 25rem;
+  height: 10rem;
+  border-radius: 16px;
+  color: rgb(0, 0, 0);
+
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+
+  background-color: #f5f5f5;
+}
+.container-docs {
+  width: 25rem;
+  height: 25rem;
+  color: rgb(0, 0, 0);
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+
+  margin-top: 1.5rem;
+  border-radius: 16px;
+  background-color: #f5f5f5;
+}
+
+.container-three{
+  width: 25rem;
+  height: 34rem;
+
+  display: flex;
+  flex-direction: column;
+
+  position: absolute;
+  right: 0%;
+  background-color: #f5f5f5;
+  border-radius: 16px;
+}
+
+.container-submisions{
+  width: 25rem;
+  height: 15rem;
+  border-radius: 16px;
+  color: rgb(0, 0, 0);
+
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+
+  background-color: #f5f5f5;
+}
+
+.container-lec-docs{
+  width: 25rem;
+  height: 20rem;
+  border-radius: 16px;
+  color: rgb(0, 0, 0);
+
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+
+  margin-top: 1.5rem;
+
+  background-color: #f5f5f5;
+}
+
+
+.data-container{
+  display: flex;
+  flex-direction: row;
+  
+}
+.the-data-one{
+  margin-right: 10rem;
+}
+.the-data-two{
+  
+  margin-right: 10rem;
+
+}

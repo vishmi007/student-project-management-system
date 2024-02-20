@@ -1,0 +1,56 @@
+.notification-icon {
+    cursor: pointer;
+}
+
+.notification-bell-wrapper:hover {
+    border-radius: 0.7rem;
+    background-color: #D5EEFF;
+}
+
+.notification-icon.active {
+    /* Define your hover effect styles here */
+    background-color: #D5EEFF; /* Change background color on hover */
+    cursor: pointer;
+  }
+
+.notification-header {
+    position: relative;
+  }
+  
+  .notification-bell-wrapper {
+    cursor: pointer;
+  }
+  
+  .notification-panel {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 35em; /* Adjust the width as needed */
+    height: 20em;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    z-index: 999; /* Ensure the panel is above other content */
+    padding: 10px;
+    display: block;
+    overflow-y: auto;
+  }
+
+.notification-msg-container {
+  border-bottom: 1px solid #D9D9D9;
+}
+
+.notification-content {
+  max-width: 25rem;
+}
+
+.notification-circle {
+  display: inline-block;
+  width: 0.9em;
+  height: 0.9em;
+  border-radius: 50%;
+  background-color: #DA2F47;
+  position: relative;
+  left: 1.5em;
+  bottom: 0.5em;
+}

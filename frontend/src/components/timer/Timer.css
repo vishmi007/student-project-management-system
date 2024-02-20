@@ -1,0 +1,124 @@
+.timer {
+  width: 25rem;
+  flex-shrink: 0;
+  border-radius: 0.9375rem;
+  /* background: linear-gradient(316deg, #353535 0%, #000 100%); */
+  background-color:#F6F3EF;
+}
+.titleinput {
+  color: #000000;
+  font-family: Poppins;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  background: transparent;
+  border: none;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  margin-right: 15px;
+  width: 180px;
+}
+.projectnameinput {
+  color: #000000;
+  font-family: Poppins;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  background: transparent;
+  border: none;
+  margin-left: 20px;
+  margin-top: 5px;
+  width: 180px;
+}
+.dateinput {
+  color: #000000;
+  color-scheme: light;
+  font-family: Poppins;
+  font-size: 0.8rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  background: transparent;
+  border: none;
+  margin-left: 0px;
+  margin-top: 5px;
+  width: 170px;
+}
+.time {
+  margin-left: 12px;
+  margin-top: 5px;
+  width: 200px;
+  width: 11.625rem;
+  height: 2.125rem;
+  flex-shrink: 0;
+  color: #000000;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+/* .timerDisplay {
+  margin-left: 12px;
+  margin-top: 5px;
+  width: 200px;
+  width: 11.625rem;
+  height: 2.125rem;
+  flex-shrink: 0;
+  color: #fff;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+} */
+.start-button {
+  width: 3.2rem;
+  height: 3.2rem;
+  display: block;
+  flex-shrink: 0;
+  fill: #fff;
+  border-radius: 30px;
+  border: none;
+  transition: background-color 0.3s ease-in-out;
+}
+.start-button:hover {
+  background-color: #226220;
+}
+.pause-button {
+  width: 3.2rem;
+  height: 3.2rem;
+  display: block;
+  flex-shrink: 0;
+  fill: #fff;
+  border-radius: 30px;
+  border: none;
+  transition: background-color 0.3s ease-in-out;
+}
+.pause-button:hover {
+  background-color: #297ac5;
+}
+.stop-button {
+  width: 3.2rem;
+  height: 3.2rem;
+  display: block;
+  flex-shrink: 0;
+  fill: #fff;
+  border-radius: 30px;
+  border: none;
+  transition: background-color 0.3s ease-in-out;
+}
+.stop-button:hover {
+  background-color: #da2f47;
+}
+.timer-text {
+  width: 11.625rem;
+  height: 2.125rem;
+  flex-shrink: 0;
+  color: #000000;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}

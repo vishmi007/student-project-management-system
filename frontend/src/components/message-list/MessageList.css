@@ -1,0 +1,153 @@
+/* CSS for the chat list container */
+.messages-list {
+  max-width: 400px;
+  justify-content: flex-start;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f8f8f8;
+  overflow-y: scroll;
+  height: 700px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s, box-shadow 0.3s;
+  align-items: flex-start;
+}
+
+.messages-list:hover {
+  background-color: #fff;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Styles for the chat list header */
+.messages-list h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+/* Styles for individual chat messages */
+.message-list-messages {
+  justify-content: flex-start; 
+  margin: 10px 0px; 
+  border-radius: 7px;
+  list-style: none;
+  cursor: pointer;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s;
+  width: calc(100% - 10px); 
+  border: 1px solid #9f9c9c;
+  height: 100px;
+  padding: 0.5rem 1rem; 
+ 
+ 
+}
+
+
+.message-list-messages:hover {
+  background-color: #b2b1ba;
+}
+
+.message-list-profile-pic {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+  object-fit: cover;
+}
+
+.message-list-sender-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.message-list-sender-name {
+  font-weight: bold;
+  color: #333;
+}
+
+.message-list-message.slide-enter {
+  animation: slideInRight 0.3s ease-in-out forwards;
+  opacity: 0;
+  transform: translateX(100%);
+}
+
+.message-list-search-input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px; /* Add margin to adjust the spacing from the chat messages */
+}
+
+.message-list-search-input {
+  width: 18rem;
+  height: 2.75rem;
+  border-radius: 0.9375rem;
+  background: #fff;
+  padding: 0.5rem 1rem; /* Add padding for better appearance */
+  border: 1px solid #ccc;
+  font-size: 16px;
+  transition: all 0.3s;
+  outline: none;
+}
+
+/* Styles for the circular profile picture with rounded border */
+.message-list-profile-pic {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+  flex-shrink: 0; /* Prevent the profile pic from shrinking */
+  margin-right: 10px; /* Add margin between profile pic and name */
+  border: 2px solid #007bff;
+}
+
+.message-list-profile-pic img {
+  width: 100%;
+  height: auto;
+}
+
+/* Flexbox container for user info */
+.message-list-user-info {
+  display: flex;
+  align-items: center;
+}
+
+/* Adjust the spacing between the profile picture and the name */
+.message-list-sender-name {
+  color: #333;
+  font-weight: bold;
+  white-space: nowrap; /* Prevent name from breaking into multiple lines */
+   margin: 0;
+}
+
+/* Style for the message and timestamp container */
+.message-list-last-message-info {
+  display: flex;
+  flex-direction: column;
+  align-items:self-start;
+  margin-left: 50px;
+}
+
+.message-list-last-message {
+  color: #777; /* Adjust color for the last message text */
+  white-space: nowrap; /* Prevent last message from breaking into multiple lines */
+  padding-right: 3px;
+}
+
+/* Style for the message and timestamp container */
+.message-list-user-details {
+  display: flex;
+  flex-direction: column;
+  align-items:self-start;
+  margin-left: 50px;
+}
+
+.message-list-role{
+  margin-left: 50px;
+}
+
+
+
+

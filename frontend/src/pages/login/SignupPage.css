@@ -1,0 +1,21 @@
+.signup-form-astronaut-img {
+}
+
+.signup-fixed-mascot-section {
+    position: sticky;
+    top: 0;
+}
+
+
+.signup-form-mascot-section {
+    background: hsla(203, 99%, 38%, 1);
+    background: radial-gradient(circle, hsla(203, 99%, 38%, 1) 0%, hsla(216, 100%, 21%, 1) 100%);
+    background: -moz-radial-gradient(circle, hsla(203, 99%, 38%, 1) 0%, hsla(216, 100%, 21%, 1) 100%);
+    background: -webkit-radial-gradient(circle, hsla(203, 99%, 38%, 1) 0%, hsla(216, 100%, 21%, 1) 100%);
+    background-attachment: fixed;
+  }
+
+
+.signup-form-login-text {
+  color: #014C90;
+}

@@ -1,0 +1,60 @@
+.login-form-main {
+  min-height: 100vh;
+}
+
+.login-form-mascot-section {
+  background: hsla(203, 99%, 38%, 1);
+  background: radial-gradient(circle, hsla(203, 99%, 38%, 1) 0%, hsla(216, 100%, 21%, 1) 100%);
+  background: -moz-radial-gradient(circle, hsla(203, 99%, 38%, 1) 0%, hsla(216, 100%, 21%, 1) 100%);
+  background: -webkit-radial-gradient(circle, hsla(203, 99%, 38%, 1) 0%, hsla(216, 100%, 21%, 1) 100%);
+}
+
+.login-form-mascot-circle {
+  width: 30rem;
+  height: 30rem;
+  border-radius: 37.5rem;
+  background: #297AC5;
+  z-index: 1;
+}
+
+.login-mascot-container {
+  min-height: 100vh;
+}
+
+.login-form-title-text {
+  text-align: center;
+  line-height: normal;
+
+}
+
+.login-form-welcome-text {
+  color: #ffffff;
+  text-align: center;
+}
+
+.login-form-input {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 8px 12px;
+  outline: none;
+  width: 30em;
+  height: 4em;
+}
+
+.login-form-input::placeholder {
+  color: #a3a3a3;
+}
+
+.input-form-input:focus {
+box-shadow: 0 0 4px #6c63ff;
+}
+
+.login-form-forgot-password {
+  font-weight: 500;
+  color: #014C90;
+
+}
+
+.login-form-sign-up-text {
+  color: #014C90;
+}

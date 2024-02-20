@@ -1,0 +1,15 @@
+.data-container-summary {
+  display: flex;
+  flex-direction: column;
+  width: 10rem;
+  height: 4rem;
+}
+.heading {
+  font-size: 15px;
+  
+}
+
+.value {
+  font-size: 25px;
+  font-weight: bold;
+}

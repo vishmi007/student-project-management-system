@@ -1,0 +1,52 @@
+.projectCard {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 0.5rem;
+    background-color: var(--bg-color); /* Use your background color variable here */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 1rem;
+  }
+  .selected {
+    background-color: #297AC5; /* Blue color for selected card */
+  }
+  .projectInfo {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1rem;
+    align-items: center;
+    font-size: 0.9rem;
+    margin: 1rem;
+  }
+  
+  .projectValue {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .project-card-container {
+    background-color: var(--bg-color); 
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: auto;
+  }
+
+  
+  
+  .project-card-header {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1rem;
+    font-weight: bold;
+    padding: 0.5rem;
+    border-bottom: 1px solid #ccc;
+    color: #777;
+    margin: 20px;
+  }
+  
+  .headerItem {
+    text-align: center;
+  }
+  

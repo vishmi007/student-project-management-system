@@ -1,0 +1,26 @@
+.input-container {
+    display: flex;
+    flex-direction: column;
+}
+  
+.rounded-input {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 8px 12px;
+    outline: none;
+    width: 25em;
+}
+
+.rounded-input::placeholder {
+    color: #a3a3a3;
+}
+
+.input-field-required {
+    color: #FB2047;
+
+}
+
+/* Optional: Add a box-shadow when the input is focused */
+.rounded-input:focus {
+box-shadow: 0 0 4px #6c63ff;
+}

@@ -1,0 +1,26 @@
+/* CSS for .btn class */
+.file-uploader-btn {
+    display: inline-block;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 0.875rem;
+    width: 13rem; /* default is the small button */
+    height: 3rem;
+    cursor: pointer;
+    border-radius: 0.9375rem;
+    background-color: #C1E1FF;
+    border: none;
+    color: #002ac2;
+    transition: background-color 0.3s ease;
+  }
+
+.file-uploader-btn:hover {
+    background-color: #4b9fee;
+    color: #ffffff;
+}
+
+.file-uploader-tags {
+    background-color: #C8FFC7;
+    color: #0D7D0B;
+    border-radius: 6.25rem;
+}

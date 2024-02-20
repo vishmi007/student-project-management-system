@@ -1,0 +1,29 @@
+.error-page {
+    color: #ffffff;
+    min-height: 100vh;
+    background: hsla(203, 99%, 38%, 1);
+    background: radial-gradient(circle, hsla(203, 99%, 38%, 1) 0%, hsla(216, 100%, 21%, 1) 100%);
+    background: -moz-radial-gradient(circle, hsla(203, 99%, 38%, 1) 0%, hsla(216, 100%, 21%, 1) 100%);
+    background: -webkit-radial-gradient(circle, hsla(203, 99%, 38%, 1) 0%, hsla(216, 100%, 21%, 1) 100%);
+    background-attachment: fixed;
+}
+
+.error-content-container {
+    height: 100vh;
+}
+
+.error-text-1 {
+    font-size: 5rem;
+    font-weight: 800;
+
+}
+
+.error-text-2 {
+    font-size: 2rem;
+
+}
+
+.error-text-3 {
+    font-size: 2rem;
+
+}

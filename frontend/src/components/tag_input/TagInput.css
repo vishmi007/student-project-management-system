@@ -1,0 +1,81 @@
+.tag-input-container {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    max-width: 60em;
+  }
+  
+  .tag-input-tag-item {
+    background-color: #B5E5FF;
+    color: #002E58;
+    border-radius: 6.25rem;
+    list-style: none;
+  }
+  
+  .tag-input-search-field {
+    border: none;
+    width: 20em;
+  }
+  
+  .tag-input-search-field:focus {
+    outline: none;
+    border: none;
+  }
+
+  .tag-input-info-text {
+    color: #737992;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .tag-input-tag-item {
+      font-size: 0.8rem;
+    }
+  
+    .tag-input-search-field {
+      font-size: 0.8rem;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .tag-input-tag-item {
+      font-size: 0.7rem;
+      border-radius: 5rem;
+      padding: 0.5rem 1rem;
+    }
+  
+    .tag-input-search-field {
+      font-size: 0.7rem;
+    }
+  }
+ 
+.tag-input-results-container {
+  max-width: 60rem;
+  max-height: 20vh;
+  border-radius: 8px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+}
+
+.tag-input-suggested-entry {
+  cursor: pointer;
+  height: fit-content;
+}
+
+.tag-input-suggested-entry:hover {
+    background-color: #D5EEFF;
+}
+
+.tag-input-entry-icon {
+  height: 2em;
+  width: 2em;
+  line-height: 2em;
+  border-radius: 50%;
+  background-color: #000000;
+  text-align: center;
+  vertical-align: middle;
+  color: #FFFFFF;
+}
+
+.tag-input-suggested-entry-selected {
+  background-color: #D5EEFF;
+}

@@ -1,0 +1,30 @@
+.input-field-read-only-copy-btn {
+    background-color: #e9f6ff;
+    color: #525252;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.input-field-read-only-copy-btn:hover {
+    background-color: #cbe6fa;
+}
+
+
+.input-field-read-only {
+    background-color: #e9f6ff;
+    color: #008EFF;
+    border: 0;
+    padding: 1em;
+    height: fit-content;
+    border-radius: 8px;
+    outline: none;
+}
+
+.input-field-read-only-link-size {
+    width: 30em;
+}
+
+.input-field-read-only:focus {
+    box-shadow: 0 0 4px #008ffd;
+}

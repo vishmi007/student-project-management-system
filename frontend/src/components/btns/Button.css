@@ -1,0 +1,71 @@
+/* CSS for .btn class */
+.btn {
+  display: inline-block;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 0.875rem;
+  width: 10rem; /* default is the small button */
+  height: 3rem;
+  cursor: pointer;
+  border-radius: 0.9375rem;
+}
+  
+  /* CSS for .btn-blue class */
+  .blue {
+    background-color: #297AC5;
+    color: #ffffff;
+    border-color: #297AC5;
+    transition: background-color 0.3s ease; 
+  }
+
+  .blue:hover, .blue:disabled {
+    background-color: #0f599e;
+    color: #ffffff;
+  }
+ 
+  /* CSS for .btn-red class */
+  .red {
+    background-color: #DA2F47;
+    color: #ffffff;
+    border-color: #DA2F47;
+    transition: background-color 0.3s ease; 
+  }
+
+  .red:hover, .red:disabled {
+    color: #ffffff;
+    background-color: #c01229;
+  }
+
+  /* CSS for .btn-black class */
+  .black {
+    background-color: #00000000;
+    color: #ffffff;
+  }
+
+  .black:hover, .black:disabled {
+    color: #ffffff;
+    background-color: #1d1d1d;
+  }
+ 
+/* Button sizes */
+.small {
+  width: 9rem;
+}
+
+.smaller {
+  width: 6rem;
+  height: 2rem;
+  margin-right: 0.5rem;
+}
+
+.medium {
+  width: 14rem;
+}
+
+.large {
+  width: 16rem;
+}
+
+.large-login {
+  width: 30em;
+}

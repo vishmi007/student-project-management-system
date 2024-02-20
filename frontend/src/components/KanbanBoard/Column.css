@@ -1,0 +1,25 @@
+.Column {
+  width: 22rem;
+  min-height: 500px;
+  padding: 1rem;
+  margin-right: 1rem;
+  /* border: 1px solid; */
+  /* flex-shrink: 0; */
+  border-radius: 1rem;
+  background: #f5f5f5;
+}
+
+.topic {
+  width: 5rem;
+  height: 1.368rem;
+  flex-shrink: 0;
+  color: #0d062d;
+  font-size: 0.85rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.Drop_Zones{
+  height: 100%;
+}

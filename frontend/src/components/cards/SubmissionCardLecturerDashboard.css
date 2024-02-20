@@ -1,0 +1,53 @@
+/* Style for the submission card */
+.lecturer-submissionCard {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 0.5rem;
+    background-color: var(--bg-color); 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 1rem;
+  }
+  
+  .lecturer-submissionInfo {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 1rem;
+    align-items: center;
+    font-size: 0.9rem;
+    margin: 1rem;
+  }
+  
+  .lecturer-submissionValue {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .lecturer-submission-card-container {
+    background-color: var(--bg-color); 
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: auto;
+  }
+  
+  .lecturer-submission-card-header {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    font-weight: bold;
+    padding: 0.5rem;
+    border-bottom: 1px solid #ccc;
+    color: #777;
+    margin: 20px
+   
+  }
+  
+  /* Optional hover effect */
+  .lecturer-submissionCard:hover {
+    background-color: #f0f0f0;
+    transform: translateY(-2px);
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
